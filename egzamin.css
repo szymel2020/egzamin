@@ -1,0 +1,50 @@
+body, ul, li {
+	margin: 0;
+	padding:0;
+}
+
+li {
+	font-family: helvetica;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: darkslategrey;
+	list-style-type: none;
+	cursor:pointer;
+	padding: 1em 0 1em 8em;
+
+}
+
+ul li:hover {
+	background-color: gray;
+	height: 6em;
+
+}
+
+li:nth-child(5n+1){
+	background: aqua;
+	
+}
+
+li:nth-child(5n+2){
+	background-color: khaki;
+	
+}
+
+li:nth-child(5n+3){
+	background-color: salmon;
+	
+}
+
+li:nth-child(5n+4){
+	background-color: chartreuse;
+	
+}
+
+li:nth-child(5n+5){
+	background-color: #e2ff00;
+	
+}
+
+
+
+
